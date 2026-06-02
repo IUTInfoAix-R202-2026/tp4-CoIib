@@ -53,6 +53,7 @@ public class QualificationViewModel {
     // 2. verdictGlobalLibelle : "Verdict global : (à saisir)" tant que le verdict
     //    du modèle est vide, sinon "Verdict global : <verdict>".
     //    Astuce : dépend de nuit.verdictGlobalProperty().
+
   }
 
   public ObservableList<Sequence> sequencesProperty() {
@@ -90,11 +91,13 @@ public class QualificationViewModel {
 
   /** Marque la séquence sélectionnée comme "Écoutée". */
   public void ecouterCommand() {
-    // TODO exercice 7 : si une séquence est sélectionnée, passer son statut à "Écoutée".
+    // TODO exercice 7 : si une séquence est sélectionnée, passer son statut à
+    // "Écoutée".
   }
 
   /** Enregistre le verdict saisi dans le modèle de la nuit. */
   public void enregistrerVerdictCommand() {
-    // TODO exercice 7 : recopier le verdict saisi dans le modèle (nuit.setVerdictGlobal).
+    // TODO exercice 7 : recopier le verdict saisi dans le modèle
+    // (nuit.setVerdictGlobal).
   }
 }
