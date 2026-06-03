@@ -99,6 +99,7 @@ public class QualificationController {
     boutonEcouter.disableProperty().bind(viewModel.peutEcouterProperty().not());
     zoneCommentaire.textProperty().bindBidirectional(viewModel.commentaireProperty());
     choiceVerdict.getItems().setAll(viewModel.listeVerdicts());
+    choiceVerdict.valueProperty().bindBidirectional(viewModel.verdictSaisiProperty());
     labelVerdictGlobal.textProperty().bind(viewModel.verdictGlobalLibelleProperty());
   }
 
