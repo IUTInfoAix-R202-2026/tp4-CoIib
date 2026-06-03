@@ -15,7 +15,7 @@ import org.testfx.framework.junit5.Start;
 
 /**
  * Test de l'exercice 5, côté vue (TestFX) : le contrôleur abonne la TableView à la liste
- * observable, configure les colonnes (cell value factories), lie le résumé et câble le formulaire
+ * observable, configure les colonnes (cell value factories), lie le résumé et c ble le formulaire
  * d'ajout. La logique (remplissage, résumé dérivé, recherche) est déjà couverte sans fenêtre par
  * {@link PokemonViewModelTest}.
  */
